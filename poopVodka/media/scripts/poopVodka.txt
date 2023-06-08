@@ -1,0 +1,36 @@
+module poopVodka
+{
+
+	imports
+	{
+		Base
+	}
+
+	item poopVodka
+	{
+		DisplayName = Skorwolanska wodka z gowna,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = PoopVodka,
+		EvolvedRecipe = Soup:9;Stew:9;Beer:9;Beer2:9,
+		FoodType = Beer,
+		Alcoholic = TRUE,
+		CantBeFrozen = FALSE,
+		Packaged = TRUE,
+		ReplaceOnUse = BeerEmpty,
+		HungerChange = -10,
+		ThirstChange = -20,
+		UnhappyChange = -20,
+		Calories = 220,
+		Carbohydrates = 40,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		StaticModel = BeerBottle,
+		WorldStaticModel = BeerBottle,
+		Tags = LowAlcohol,
+		EvolvedRecipeName = Beer,
+	}
+}
