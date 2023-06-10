@@ -1,0 +1,54 @@
+XXX
+XXX items.txt
+XXX
+
+	item xxx <-- the id of an item
+	{
+		DisplayName = 							<-- what player sees in game
+		DisplayCategory = 						<-- category
+		Type = 									<-- type (player sees it in inventory)
+		Weight = 								<-- weight
+		Icon = 									<-- in game icon (32x32)
+		EvolvedRecipe = 						<-- in with recipes it is used
+		FoodType =								<-- type of food
+		Alcoholic = 
+		CantBeFrozen = 
+		Packaged = 
+		ReplaceOnUse = xxx 						<-- after used item is replaced for xxx
+		HungerChange = -10,
+		ThirstChange = -20,
+		UnhappyChange = -20,
+		Calories = 220,
+		Carbohydrates = 40,
+		Lipids = 0, 							<-- no idea
+		Proteins = 0,							<-- no idea
+		CustomContextMenu = Drink 				<-- ??,
+		CustomEatSound 
+		StaticModel = 							<-- no idea
+		WorldStaticModel = xxx, 				<-- when a player place an item in a overworld it looks like xxx
+		Tags = LowAlcohol,
+		EvolvedRecipeName = Beer,				<-- no idea
+	}
+	
+	
+XXX
+XXX distribution.lua
+XXX
+	
+	  all = { 									<-- where
+        toolcabinet = {							<-- where x2
+            procedural = true, 					<-- random loot
+            procList = { 						<-- what inside
+                {name="CrateMechanics", 		<-- item
+				min=0, max=99, 					<--  item  min number,max number
+				weightChance=100}, 				<-- chance
+				
+                {name="CrateTools", min=0, max=99, weightChance=20},
+            }
+        },
+        
+    },
+	
+XXX
+XXX ProceduralDistribution
+XXX
