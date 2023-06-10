@@ -7,12 +7,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 8,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     BarCounterLiquor = {
@@ -33,12 +27,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 8,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     CabinetFactoryTools = {
@@ -46,12 +34,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 4,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     CarSupplyTools = {
@@ -59,12 +41,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 4,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     ChangeroomCounters = {
@@ -72,12 +48,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 1,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     ClassroomDesk = {
@@ -85,12 +55,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 4,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     CrateCamping = {
@@ -98,12 +62,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 1,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     CrateFarming = {
@@ -111,12 +69,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 2,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     CrateFishing = {
@@ -124,12 +76,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 3,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     CrateMechanics = {
@@ -137,12 +83,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 1,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     CrateRandomJunk = {
@@ -150,12 +90,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 0.01,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     DrugShackMisc = {
@@ -163,12 +97,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 1,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     FactoryLockers = {
@@ -176,12 +104,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 0.5,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     FireDeptLockers = {
@@ -189,12 +111,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 0.01,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     FridgeGeneric = {
@@ -202,12 +118,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 0.8,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     FridgeTrailerPark = {
@@ -215,12 +125,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 0.8,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     GarageMechanics = {
@@ -228,12 +132,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 0.3,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     GasStorageMechanics = {
@@ -241,12 +139,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 0.2,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     GymLockers = {
@@ -254,12 +146,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 0.1,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     JanitorMisc = {
@@ -267,12 +153,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 8,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     MechanicShelfMisc = {
@@ -280,12 +160,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 0.1,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     SchoolLockers = {
@@ -293,12 +167,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 0.4,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
     StoreShelfCombo = {
@@ -306,12 +174,6 @@ ProceduralDistributions.list = {
         items = {
             "poopVodka.poopVodka", 1,
         },
-        junk = {
-            rolls = 1,
-            items = {
-                
-            }
-        }
     },
 
 }
@@ -324,4 +186,4 @@ ProceduralDistributions.list = {
 --table.insert(ProceduralDistributions.list, distributionTable);
 
 --for mod compat:
---ProceduralDistributions = distributionTable;
+ProceduralDistributions = distributionTable;
