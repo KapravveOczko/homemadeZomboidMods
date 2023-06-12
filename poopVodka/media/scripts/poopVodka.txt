@@ -6,30 +6,70 @@ module poopVodka
 		Base
 	}
 
-	item poopVodka
+	item PoopVodka
 	{
-		DisplayName = Skorwolanska wodka z gowna,
+		DisplayName =Skorwolanska Wodka Z Gowna,
 		DisplayCategory = Food,
+		Icon = PoopVodka,
+		
 		Type = Food,
 		Weight = 0.5,
-		Icon = PoopVodka,
 		FoodType = Beer,
 		Alcoholic = TRUE,
 		CantBeFrozen = FALSE,
 		Packaged = TRUE,
 		ReplaceOnUse = BeerEmpty,
-		HungerChange = -10,
-		ThirstChange = -20,
-		UnhappyChange = -20,
-		Calories = 220,
+		HungerChange = -20,
+		ThirstChange = -25,
+		UnhappyChange = -30,
+		Calories = 420,
 		Carbohydrates = 40,
 		Lipids = 0,
 		Proteins = 0,
 		CustomContextMenu = Drink,
 		CustomEatSound = DrinkingFromBottleGlass,
-		StaticModel = BeerBottle,
-		WorldStaticModel = BeerBottle,
 		Tags = LowAlcohol,
 		EvolvedRecipeName = Beer,
+		
+		StaticModel = BeerBottle,
+		WorldStaticModel = BeerBottle,
+	}
+	
+	 item PoopVodkaEmpty
+    {
+		DisplayName	=	Empty Skorwolanska Bottle,
+        DisplayCategory = WaterContainer,
+		Icon	=	PoopVodka,
+		
+        Weight	=	0.1,
+        CanStoreWater = TRUE,
+        Type	=	Normal,
+        ReplaceOnUseOn	=	WaterSource-PoopVodkaFull,
+        
+        StaticModel = BeerBottle,
+        WorldStaticModel = BeerBottle,
+    }
+	
+	item PoopVodkaFull
+	{
+		DisplayName = Water Bottle,
+		DisplayCategory = Water,
+		Icon = PoopVodka,
+		
+		Type = Drainable,
+		Weight = 0.4,
+		CanStoreWater = TRUE,
+		FillFromDispenserSound = GetWaterFromDispenserGlass,
+		FillFromTapSound = GetWaterFromTapGlass,
+		IsCookable = TRUE,
+		IsWaterSource = TRUE,
+		ReplaceOnDeplete = PoopVodkaEmpty,
+		ReplaceOnUseOn = WaterSource-PoopVodkaFull,
+		UseDelta = 0.16,
+		UseWhileEquipped = FALSE,
+		CustomEatSound = DrinkingFromBottleGlass,
+		
+		StaticModel = BeerBottle,
+		WorldStaticModel = BeerBottle,
 	}
 }
