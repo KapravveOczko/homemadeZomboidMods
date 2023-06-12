@@ -13,7 +13,6 @@ module poopVodka
 		Type = Food,
 		Weight = 0.5,
 		Icon = PoopVodka,
-		EvolvedRecipe = Soup:9;Stew:9;Beer:9;Beer2:9,
 		FoodType = Beer,
 		Alcoholic = TRUE,
 		CantBeFrozen = FALSE,
