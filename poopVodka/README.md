@@ -6,7 +6,8 @@ to do:
 		#1.1 item exist ✓  
 		#1.2 distribution ✓  
 		#1.3 bottle can be empty and filled with water ✓  
-		#1.4 bottle can be weponized  
+		#1.4 bottle can be weponized ✓    
+		#1.4.2 adding oryginal sound  
 		#1.5 optimalizaction and balancing  
 	#2 succes  
   

@@ -1,0 +1,12 @@
+module Base
+{
+    recipe Smash Skorwolanska Bottle
+    {
+        PoopVodkaEmpty,
+
+        Result:SmashedBottle,
+        Time:20,
+        Sound:BreakGlassItem,
+    }
+	
+}
