@@ -18,7 +18,7 @@ module poopVodka
 		Alcoholic = TRUE,
 		CantBeFrozen = FALSE,
 		Packaged = TRUE,
-		ReplaceOnUse = BeerEmpty,
+		ReplaceOnUse = PoopVodkaEmpty,
 		HungerChange = -20,
 		ThirstChange = -25,
 		UnhappyChange = -30,
@@ -27,7 +27,7 @@ module poopVodka
 		Lipids = 0,
 		Proteins = 0,
 		CustomContextMenu = Drink,
-		CustomEatSound = DrinkingFromBottleGlass,
+		CustomEatSound = poopVodkaDrinkingSound,
 		Tags = LowAlcohol,
 		EvolvedRecipeName = Beer,
 		
